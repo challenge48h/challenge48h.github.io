@@ -129,6 +129,10 @@ header {
     width: 50%;
 }
 
+#all-images {
+    width: 400px;
+}
+
 .bold {
     font-weight: 700;
 }
