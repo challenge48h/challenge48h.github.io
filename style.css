@@ -160,6 +160,7 @@ header {
     display: grid;
     grid-template-columns: 50% 50%;
     background-color: #4DBAB3;
+    margin: 30px;
 }
 
 .text-full {
