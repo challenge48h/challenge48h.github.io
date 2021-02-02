@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&display=swap');
+
+body {
+    width: 100%;
+    margin: 0;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+nav {
+    position: fixed;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 50px;
+    z-index: 1;
+    margin-top: 15px;
+}
+
+nav h3 {
+    margin: 5px 0
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./design/Dassault-airship-TW.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header-background {
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-background h1 {
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.text-content {
+    width: 50%;
+}
+
+.text-info {
+    width: 60%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 18px;
+    color: #4DBAB3;
+}
+
+.text-info h2 {
+    font-size: 35px;
+}
+
+.container {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    color: #4DBAB3;
+}
+
+.image-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-white {
+    width: 30%;
+    padding: 1.2em;
+    background-color: #4DBAB3;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.btn-white:hover {
+    background-color: #44a39d;
+}
+
+.btn-alpha {
+    background-color: white;
+    color: #4DBAB3;
+}
+
+.btn-alpha:hover {
+    background-color: rgb(243, 243, 243);
+}
+
+.alpha {
+    background-color: #4DBAB3;
+    color: white;
+}
+
+.text-alpha {
+    color: white;
+    width: 60%;
+}
+
+.image-alpha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.half {
+    height: 50vh;
+}
+
+.img-background {
+    background-image: url(./design/full.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-full {
+    width: 100%;
+    border-radius: 30px;
+}
+
+#plan {
+    border: none !important; 
+    width: 150px !important;
+}
+
+.grid-2-1 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #4DBAB3;
+}
+
+.text-full {
+    width: 100%;
+    margin-left: 30px;
+}
+
+.column-2 {
+    width: 400px;
+    margin: auto;
+}
+
+.egypt-image {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./design/egypt.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.egypt-image h1{
+    font-size: 80px;
+}
+
+.paris-image {
+    background-image: url(./design/paris.jpg);
+}
+
+
+.lake-image {
+    background-image: url(./design/lake.jpg);
+}
+
+.margin {
+    margin-left: 50px;
+}
+
+.pasbo {
+    width: 30%;
+    height: 60px;
+    font-size: 18px;
+}
+
+.relative-1, .relative-2 {
+    position: relative;
+}
+
+.arrow-down {
+    width: 50px;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    opacity: 50%;
+    transition: opacity 1s ease-in;
+}
+
+.arrow-down:hover {
+    opacity: 100%;
+}
+
