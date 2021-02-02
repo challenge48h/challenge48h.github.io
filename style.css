@@ -15,18 +15,32 @@ a {
 
 nav {
     position: fixed;
+    width: 100%;
+    z-index: 1;
+    transition: background .5s;
+}
+
+.nav-content {
     width: 40%;
+    margin-left: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    margin-left: 50px;
-    z-index: 1;
-    margin-top: 15px;
 }
 
 nav h3 {
-    margin: 5px 0
+    
+    margin: 5px 0;
+    border-bottom: 2px solid transparent;
+    transition: all .3s;
+
+}
+
+nav h3:hover {
+    border-bottom: 2px solid white;
 }
 
 header {
